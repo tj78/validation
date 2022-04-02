@@ -1,0 +1,3 @@
+# Display he contents of the current directory, including 'hidden' files!
+ls -al
+
