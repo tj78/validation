@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Print the current environment variables that start with "TERM"
+env|grep '^TERM'
+

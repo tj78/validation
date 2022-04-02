@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Create a file named \*\\'"DevOps"\'\\*$\?\*\*\*\*\*:) - containing the text 'Hello DevOps', ending with a new line.
+
+touch  "/tmp/\*\\''""DevOps""\''\\*$\?\*\*\*\*\*:)"
+#echo 'Hello DevOps\n' > ./\*\\'"DevOps"\'\\*$\?\*\*\*\*\*:)
+
