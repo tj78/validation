@@ -1,0 +1,15 @@
+#!/bin/bash
+# Move all files (from where?), beginning with an uppercase letter, to the directory /tmp/u
+# Assumption is that /tmp/u already exists, the script doesn't create it.
+# Example shows files in /tmp/sym/
+directory=/tmp/sym
+target_dir=/tmp/u
+for file in $(ls -A1 ${directory}/)
+do
+  case ${file:0:1} in
+    [[:upper:]])
+      mv ${directory}/$file $target_dir
+      ;;
+  esac
+done
+
