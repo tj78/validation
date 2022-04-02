@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Print "DevOps" 10 times
+# Must use a "while" loop ("for" and "until" are forbidden!)
+n=0
+while [[ $n -lt 10 ]]
+do
+  echo "DevOps"
+  let "n++"
+done
+
