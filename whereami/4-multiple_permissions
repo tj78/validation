@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Create an empty file named 'hello', and change the permissions to...:
+# rwx - owner
+# r x - group
+# r   - others
+touch hello
+chmod 754 hello
+
